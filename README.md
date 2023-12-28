@@ -1,6 +1,6 @@
 # Awesome Text-to-Video Generation
 
-This repository summarizes recent papers on text-to-video generation and their dataset specifications (until Dec. 2023).
+This repository contains a curated list of text-to-video generation papers and [BibTeX entries](https://github.com/feifeiobama/Awesome-Text-to-Video-Generation/blob/main/T2V.bib) (until Dec. 2023).
 
 * [Paper summary](#1.-Paper-summary)
 * [Zero-shot leaderboard](#2.-Zero-shot-leaderboard)
@@ -15,8 +15,8 @@ This repository summarizes recent papers on text-to-video generation and their d
 | NUWA [website](https://github.com/microsoft/NUWA/blob/main/NUWA.md) | ECCV22 | Microsoft   | 241k VATEX                                | Kinetics, MSR-VTT                           |
 | Video Diffusion [website](https://video-diffusion.github.io) | NIPS22 | Google      | 10M                                       | -                                           |
 | Imagen Video [website](https://imagen.research.google/video/) | 22.10  | Google      | 14M                                       | -                                           |
-| LVDM [website](https://yingqinghe.github.io/LVDM/) [code](https://github.com/YingqingHe/LVDM) | 22.11  | HKUST       | 2M from WebVid-10M                        | UCF-101, Sky Time-lapse, Taichi             |
 | MagicVideo [website](https://magicvideo.github.io)           | 22.11  | ByteDance   | WebVid-10M (+ 10M from HD-VILA-100M + 7M) | **UCF-101**, **MSR-VTT**                    |
+| LVDM [website](https://yingqinghe.github.io/LVDM/) [code](https://github.com/YingqingHe/LVDM) | 22.11  | HKUST       | 2M from WebVid-10M                        | UCF-101, Sky Time-lapse, Taichi             |
 | Make-A-Video [website](https://makeavideo.studio)            | ICLR23 | Meta        | WebVid-10M + 10M from HD-VILA-100M        | **UCF-101**, **MSR-VTT**                    |
 | Phenaki [website](https://sites.research.google/phenaki/)    | ICLR23 | Google      | ~15M                                      | Kinetics-400                                |
 | CogVideo **[demo](https://huggingface.co/spaces/THUDM/CogVideo)** [website](https://models.aminer.cn/cogvideo/) [code](https://github.com/THUDM/CogVideo) | ICLR23 | THU         | 5.4M                                      | UCF-101, Kinetics-600                       |
@@ -29,22 +29,22 @@ This repository summarizes recent papers on text-to-video generation and their d
 | Latent-Shift [website](https://latent-shift.github.io)       | 23.04  | Meta        | WebVid-10M                                | UCF-101, **MSR-VTT**                        |
 | VideoFactory                                                 | 23.05  | PKU         | HD-VG-130M + WebVid-10M                   | **UCF-101**, **MSR-VTT**, WebVid-10M        |
 | Make-Your-Video [website](https://doubiiu.github.io/projects/Make-Your-Video/) [code](https://github.com/AILab-CVC/Make-Your-Video) | 23.06  | CUHK        | WebVid-10M                                | **UCF-101**                                 |
-| InternVid                                                    | 23.07  | Shanghai    | WebVid10M + InternVid18M                  | **UCF-101**, **MSR-VTT**                    |
 | Animate-A-Story [website](https://ailab-cvc.github.io/Animate-A-Story/) | 23.07  | HKUST       | WebVid-10M                                | **UCF-101**                                 |
+| InternVid                                                    | 23.07  | Shanghai    | WebVid10M + InternVid18M                  | **UCF-101**, **MSR-VTT**                    |
 | ModelScopeT2V **[demo](https://huggingface.co/spaces/damo-vilab/modelscope-text-to-video-synthesis)** [website](https://modelscope.cn/models/damo/text-to-video-synthesis/summary) | 23.08  | Alibaba     | WebVid-10M                                | **MSR-VTT**                                 |
 | Dysen-VDM [website](http://haofei.vip/Dysen-VDM/)            | 23.08  | NUS         | WebVid-10M                                | **UCF-101**, **MSR-VTT**                    |
-| Show-1 **[demo](https://huggingface.co/spaces/showlab/Show-1) [demo2](https://replicate.com/cjwbw/show-1)** [website](https://showlab.github.io/Show-1/) [code](https://github.com/showlab/Show-1) | 23.09  | NUS         | WebVid-10M                                | **UCF-101**, **MSR-VTT**                    |
-| LaVie **[demo](https://huggingface.co/spaces/Vchitect/LaVie) [demo2](https://replicate.com/cjwbw/lavie)** [website](https://vchitect.github.io/LaVie-project/) [code](https://github.com/Vchitect/LaVie) | 23.09  | Shanghai    | WebVid-10M + Vimeo25M                     | **UCF-101**, **MSR-VTT**                    |
 | VidRD [website](https://anonymous0x233.github.io/ReuseAndDiffuse/) [code](https://github.com/anonymous0x233/ReuseAndDiffuse) | 23.09  | Huawei      | WebVid-2M, TGIF, VATEX, Pexels (5.3M)     | **UCF-101**                                 |
+| LaVie **[demo](https://huggingface.co/spaces/Vchitect/LaVie) [demo2](https://replicate.com/cjwbw/lavie)** [website](https://vchitect.github.io/LaVie-project/) [code](https://github.com/Vchitect/LaVie) | 23.09  | Shanghai    | WebVid-10M + Vimeo25M                     | **UCF-101**, **MSR-VTT**                    |
+| Show-1 **[demo](https://huggingface.co/spaces/showlab/Show-1) [demo2](https://replicate.com/cjwbw/show-1)** [website](https://showlab.github.io/Show-1/) [code](https://github.com/showlab/Show-1) | 23.09  | NUS         | WebVid-10M                                | **UCF-101**, **MSR-VTT**                    |
 | VideoCrafter **[demo](https://huggingface.co/spaces/VideoCrafter/VideoCrafter) [demo2](https://replicate.com/cjwbw/videocrafter)** [website](https://ailab-cvc.github.io/videocrafter/) [code](https://github.com/AILab-CVC/VideoCrafter) | 23.10  | Tencent     | WebVid-10M + 10M                          | -                                           |
-| SVD [website1](https://stability.ai/news/stable-video-diffusion-open-ai-video-model) [website2](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid)  [code](https://github.com/Stability-AI/generative-models) | 23.11  | Stability   | LVD (580M) / LVD-F (152M)                 | **UCF-101**                                 |
 | Emu Video [website](https://emu-video.metademolab.com)       | 23.11  | Meta        | 34M                                       | **UCF-101**                                 |
+| SVD [website1](https://stability.ai/news/stable-video-diffusion-open-ai-video-model) [website2](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid)  [code](https://github.com/Stability-AI/generative-models) | 23.11  | Stability   | LVD (580M) / LVD-F (152M)                 | **UCF-101**                                 |
 | PixelDance [website](https://makepixelsdance.github.io)      | 23.11  | ByteDance   | WebVid-10M + 500k watermark-free          | **UCF-101**, **MSR-VTT**                    |
 | VideoPoet [website](https://sites.research.google/videopoet/) | 23.12  | Google      | ~270M (100M paired)                       | **UCF-101**, **MSR-VTT**                    |
 
-**Bold** indicates zero-shot evaluation
+**Bold** for zero-shot evaluation
 
-Models without a technical report such as [Gen-2](https://research.runwayml.com/gen2), [Pika 1.0](https://pika.art), [zeroscope](https://zeroscope.replicate.dev) are not included.
+Other models: [Gen-2](https://research.runwayml.com/gen2), [Pika 1.0](https://pika.art), [zeroscope](https://zeroscope.replicate.dev)
 
 
 
@@ -76,9 +76,9 @@ Models without a technical report such as [Gen-2](https://research.runwayml.com/
 | PixelDance          | 23.11  | ~~10.5M~~ | 0.3125          |             | 381         | **49.36**   | 242.82      | 42.10      |
 | **SVD**             | 23.11  | ~~152M~~  |                 |             |             |             | **242.02**  |            |
 
-**Bold** indicates open-source code or demo release
+~~This~~ means involving private data
 
-~~Strikethrough~~ indicates private data involved
+**Bold** for open-sourcing code or releasing demo
 
 
 
