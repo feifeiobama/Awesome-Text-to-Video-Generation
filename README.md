@@ -2,9 +2,12 @@
 
 This repository contains a curated list of text-to-video generation papers (until Dec. 2023).
 
+1. [Paper summary](#1)
+2. [Zero-shot leaderboard](#2)
+3. [Dataset summary](#3)
 
 
-### Dataset specifications of text-to-video papers
+### 1. Paper summary
 
 | Name                                                         | Date   | Affiliation | Train set                                 | Test set                                    |
 | ------------------------------------------------------------ | ------ | ----------- | ----------------------------------------- | ------------------------------------------- |
@@ -45,7 +48,7 @@ Other models: [Gen-2](https://research.runwayml.com/gen2), [Pika 1.0](https://pi
 
 
 
-### Zero-shot text-to-video generation leaderboard
+### 2. Zero-shot leaderboard
 
 | Name                | Date   | Data      | MSR-VTT CLIPSIM | MSR-VTT FID | MSR-VTT FVD | UCF-101 FID | UCF-101 FVD | UCF-101 IS |
 | ------------------- | ------ | --------- | --------------- | ----------- | ----------- | ----------- | ----------- | ---------- |
@@ -79,7 +82,7 @@ Other models: [Gen-2](https://research.runwayml.com/gen2), [Pika 1.0](https://pi
 
 
 
-### Video datasets involved in these papers
+### 3. Dataset summary
 
 | Name           | Size       | Type  | Date   | Affiliation     |
 | -------------- | ---------- | ----- | ------ | --------------- |
