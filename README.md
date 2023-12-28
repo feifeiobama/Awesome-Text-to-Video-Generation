@@ -2,9 +2,9 @@
 
 This repository contains a curated list of text-to-video generation papers (until Dec. 2023).
 
-1. [Paper summary](#1)
-2. [Zero-shot leaderboard](#2)
-3. [Dataset summary](#3)
+* [Paper summary](#1.-Paper-summary)
+* [Zero-shot leaderboard](#2.-Zero-shot-leaderboard)
+* [Dataset summary](#3.-Dataset-summary)
 
 
 ### 1. Paper summary
