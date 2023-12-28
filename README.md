@@ -2,12 +2,13 @@
 
 This repository contains a curated list of text-to-video generation papers and [BibTeX entries](https://github.com/feifeiobama/Awesome-Text-to-Video-Generation/blob/main/T2V.bib) (until Dec. 2023).
 
-* [Paper summary](#1.-Paper-summary)
-* [Zero-shot leaderboard](#2.-Zero-shot-leaderboard)
-* [Dataset summary](#3.-Dataset-summary)
+* [Paper summary](#Paper-summary)
+* [Zero-shot leaderboard](#Zero-shot-leaderboard)
+* [Dataset summary](#Dataset-summary)
 
 
-### 1. Paper summary
+
+### Paper summary
 
 | Name                                                         | Date   | Affiliation | Train set                                 | Test set                                    |
 | ------------------------------------------------------------ | ------ | ----------- | ----------------------------------------- | ------------------------------------------- |
@@ -48,7 +49,7 @@ This repository contains a curated list of text-to-video generation papers and [
 
 
 
-### 2. Zero-shot leaderboard
+### Zero-shot leaderboard
 
 | Name                | Date   | Data      | MSR-VTT CLIPSIM | MSR-VTT FID | MSR-VTT FVD | UCF-101 FID | UCF-101 FVD | UCF-101 IS |
 | ------------------- | ------ | --------- | --------------- | ----------- | ----------- | ----------- | ----------- | ---------- |
@@ -82,7 +83,7 @@ This repository contains a curated list of text-to-video generation papers and [
 
 
 
-### 3. Dataset summary
+### Dataset summary
 
 | Name           | Size       | Type  | Date   | Affiliation     |
 | -------------- | ---------- | ----- | ------ | --------------- |
