@@ -1,6 +1,6 @@
 # Awesome Text-to-Video Generation
 
-This repository contains a curated list of text-to-video generation papers (until Dec. 2023).
+This repository summarizes recent papers on text-to-video generation and their dataset specifications (until Dec. 2023).
 
 * [Paper summary](#1.-Paper-summary)
 * [Zero-shot leaderboard](#2.-Zero-shot-leaderboard)
@@ -42,9 +42,9 @@ This repository contains a curated list of text-to-video generation papers (unti
 | PixelDance [website](https://makepixelsdance.github.io)      | 23.11  | ByteDance   | WebVid-10M + 500k watermark-free          | **UCF-101**, **MSR-VTT**                    |
 | VideoPoet [website](https://sites.research.google/videopoet/) | 23.12  | Google      | ~270M (100M paired)                       | **UCF-101**, **MSR-VTT**                    |
 
-**Bold** for zero-shot evaluation
+**Bold** indicates zero-shot evaluation
 
-Other models: [Gen-2](https://research.runwayml.com/gen2), [Pika 1.0](https://pika.art), [zeroscope](https://zeroscope.replicate.dev)
+Models without a technical report such as [Gen-2](https://research.runwayml.com/gen2), [Pika 1.0](https://pika.art), [zeroscope](https://zeroscope.replicate.dev) are not included.
 
 
 
@@ -76,9 +76,9 @@ Other models: [Gen-2](https://research.runwayml.com/gen2), [Pika 1.0](https://pi
 | PixelDance          | 23.11  | ~~10.5M~~ | 0.3125          |             | 381         | **49.36**   | 242.82      | 42.10      |
 | **SVD**             | 23.11  | ~~152M~~  |                 |             |             |             | **242.02**  |            |
 
-~~This~~ means involving private data
+**Bold** indicates open-source code or demo release
 
-**Bold** for open-sourcing code or releasing demo
+~~Strikethrough~~ indicates private data involved
 
 
 
