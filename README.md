@@ -135,3 +135,6 @@ Table for #evaluation samples and backbone
 | PYoCo         | -                   | -           | 59794 CLIP32/Inception | 2020       | 2048                 |
 | SVD           | -                   | -           | -                      | -          | 13320 script 240x320 |
 
+## Tools
+
+- [Ideoy](https://ideoy.ai) - Remake trending AI meme / viral video templates from one photo or selfie
